@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-service
-        image: DOCKER_USERNAME/kushcha
+        image: kushcha
         imagePullPolicy: Always
         env:
         - name: POSTGRES_PASSWORD
